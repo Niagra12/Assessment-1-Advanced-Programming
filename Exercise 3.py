@@ -2,9 +2,9 @@
 
 import tkinter as tk # Tkinter is used to create GUI windows, buttons, labels, etc.
 from tkinter import ttk, messagebox, simpledialog
-# ttk      → provides modern-looking Tkinter widgets like Combobox, Button, etc.
-# messagebox → used to show pop-up messages (information, warnings, or errors)
-# simpledialog → used to ask the user for text input through a small pop-up box
+# ttk      - provides modern-looking Tkinter widgets like Combobox, Button, etc.
+# messagebox - used to show pop-up messages (information, warnings, or errors)
+# simpledialog - used to ask the user for text input through a small pop-up box
 import os                           # The os module helps check if a file exists and handle file paths
 from PIL import ImageTk, Image # For loading and resizing images
 
@@ -194,3 +194,4 @@ output_text = tk.Text(root, width=70, height=15, bg="lightblue")
 output_text.pack(pady=10)
 
 root.mainloop()
+
