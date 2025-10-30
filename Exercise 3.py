@@ -8,6 +8,11 @@ from tkinter import ttk, messagebox, simpledialog
 import os                           # The os module helps check if a file exists and handle file paths
 from PIL import ImageTk, Image # For loading and resizing images
 
+root = tk.Tk()
+root.title("Student Manager")
+root.geometry("600x420")
+root.configure(bg="#333333")
+
 # ========================
 # STUDENT CLASS
 # ========================
@@ -157,12 +162,6 @@ def add_new_student():
 # ========================
 # MAIN GUI WINDOW
 # ========================
-
-root = tk.Tk()
-root.title("Student Manager")
-root.geometry("600x420")
-root.configure(bg="#333333")
-
 
 students = load_students()  # read from file
 
